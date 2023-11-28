@@ -1,4 +1,5 @@
 {:paths ["src"]
  :deps {com.hyperfiddle/rcf {:mvn/version "20220926-202227"}
         missionary/missionary {:mvn/version "b.33"}
-        thheller/shadow-cljs {:mvn/version "2.25.8"}}}
+        thheller/shadow-cljs {:mvn/version "2.25.8"}
+        com.cnuernber/tmdjs {:mvn/version "2.000-beta-10"}}}

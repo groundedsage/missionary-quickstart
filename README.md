@@ -1,5 +1,9 @@
 # missionary-quickstart
 
+First install the javascript dependencies
+`yarn`
+---
+
 Livecoding REPL introduction to [Missionary](https://github.com/leonoel/missionary).
 
 * Part 1: [src/quickstart.cljs](https://github.com/dustingetz/missionary-quickstart/blob/main/src/quickstart.cljs), a managed DOM input, which is the simplest real world use case.

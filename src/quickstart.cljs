@@ -2,7 +2,14 @@
   "Missionary quickstart, for 10x devs with ADHD"
   (:import [missionary Cancelled])
   (:require [hyperfiddle.rcf :refer [tests % tap with]]
-            [missionary.core :as m]))
+            [missionary.core :as m]
+            [tech.v3.dataset :as ds]))
+
+(def ds (ds/->dataset {:a (range 100)
+                       :b (take 100 (cycle [:a :b :c]))
+                       :c (take 100 (cycle ["one" "two" "three"]))}))
+
+(println ds)
 
 
 ; Example: Flow hello world
